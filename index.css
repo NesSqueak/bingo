@@ -1,0 +1,112 @@
+/******* GENERAL *******/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(77, 30, 38);
+    transition: color ease 0.5s;
+    outline: none;
+}
+
+a:hover {
+    color: #9b8abe;
+}
+
+h1, h2 {
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+/******* CONTAINER *******/
+.container {
+    min-height: 100vh;
+    background: url("Images/stars_pattern.png") center, -webkit-linear-gradient(top, #d68eb6, #baabda, #9fdfcd, #c2e7af);
+    background-size: 1000px;
+    display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+
+
+
+
+/******* HEADER *******/
+h1 {
+    padding: 30px;
+    color: white;
+    font-size: 4em;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 0px 5px;
+}
+
+
+
+
+
+/******* MAIN *******/
+main {
+    margin: 30px auto;
+    width: 70%;
+    display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        grid-gap: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+li {
+    text-align: center;
+    padding: 5px 0px;
+}
+
+
+
+
+
+/******* CARDS *******/
+ul {
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+}
+
+.cards {
+    padding: 30px;
+    margin-top: 15px;
+    background-color: #f7f4de;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px;
+}
+
+
+
+
+
+/******* FOOTER *******/
+footer {
+    padding: 30px 0px;
+    width: 100%;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
+    box-shadow: rgba(0, 0, 0, 0.4) -5px 0px 5px;
+}
